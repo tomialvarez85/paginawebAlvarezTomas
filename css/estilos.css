@@ -32,12 +32,12 @@
 /* HEADER */
 
 .header{
-    height: 100px;
+    height: 80px;
     width: 1028px;
     margin-top: 5px;
     grid-area: header;
     padding: 1rem 1rem;
-    background-color: #140C03;
+    background-image: linear-gradient(to right, #140C03, #008000);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -49,7 +49,7 @@
 
 .header-nav{
     width: 750px;
-    height: 75px;
+    height: 80px;
 }
 
 .header-ul{
@@ -76,8 +76,12 @@
     margin: 0px;
     border: none;
     width: 200px;
-    height: 100px;
-    margin-top: 16px;
+    height: 80px;
+    transition: transform 2s, opacity 1s;
+}
+
+.header-logo:hover{
+    transform: skewY(25deg);
 }
 
 /* MAIN */

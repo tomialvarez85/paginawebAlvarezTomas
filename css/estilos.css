@@ -70,6 +70,10 @@
     text-decoration: none;
 }
 
+.header-a:hover{
+    color: #BDC3C7;
+}
+
 .header-logo{
     padding: 5px; 
     margin: 0px;
@@ -138,6 +142,10 @@
     position: absolute;
     margin-left: 420px;
     margin-top: 10px;
+}
+
+.main-btn:hover{
+    background-color: #BDC3C7;
 }
 
 .main-two-img{

@@ -22,8 +22,8 @@
   background-image: linear-gradient(to right, #140C03, #008000);
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-around;
+  align-items: center;
   align-content: space-around;
   flex-wrap: wrap;
   align-content: center; }
@@ -35,10 +35,10 @@
     height: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     flex-wrap: nowrap;
     align-items: center;
     align-content: space-around;
-    justify-content: space-around;
     list-style: none; }
   .header .header-a {
     color: #008000;
@@ -47,14 +47,14 @@
     text-decoration: none; }
   .header .header-a:hover {
     color: #BDC3C7; }
-  .header .header-logo {
+  .header .header-logo, .header .footer .footer-logo, .footer .header .footer-logo {
     padding: 5px;
     margin: 0px;
     border: none;
     width: 200px;
     height: 80px;
     transition: transform 2s, opacity 1s; }
-  .header .header-logo:hover {
+  .header .header-logo:hover, .header .footer .footer-logo:hover, .footer .header .footer-logo:hover {
     transform: skewY(25deg); }
 
 .main {
@@ -182,22 +182,17 @@
     align-items: stretch;
     align-content: space-around;
     justify-content: space-evenly; }
-  .footer footer div ul h3 {
-    font-family: 'Dongle', sans-serif;
-    font-size: 30px;
-    margin-bottom: 5px; }
-  .footer footer div ul li {
-    list-style: none;
-    line-height: 25px; }
-  .footer footer div ul li p {
-    color: #008000;
-    font-family: 'Dongle', sans-serif;
-    font-size: 20px; }
-  .footer .footer-logo {
-    margin: 0px;
-    border: none;
-    width: 225px;
-    height: 125px; }
+    .footer .footer-div h3 {
+      font-family: 'Dongle', sans-serif;
+      font-size: 30px;
+      margin-bottom: 5px; }
+      .footer .footer-div h3 li {
+        list-style: none;
+        line-height: 25px; }
+        .footer .footer-div h3 li p {
+          color: #008000;
+          font-family: 'Dongle', sans-serif;
+          font-size: 20px; }
   .footer .pie {
     grid-area: pie;
     background-color: #140C03;

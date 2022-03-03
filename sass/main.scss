@@ -6,8 +6,19 @@
     box-sizing: border-box; 
 }
 
+$colores: (
+    colorone: #140C03,
+    colortwo: #008000
+);
+
+@mixin centrado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .body{
-    background-color: #140C03;
+    background-color: map-get($map: $colores, $key: colorone);
     width: 100%;
 }
 
@@ -26,10 +37,8 @@
     grid-area: header;
     padding: 1rem 1rem;
     background-image: linear-gradient(to right, #140C03, #008000);
-    display: flex;
-    flex-direction: row;
+    @include centrado();
     align-items: center;
-    justify-content: space-around;
     align-content: space-around;
     flex-wrap: wrap;
     align-content: center;
@@ -43,17 +52,15 @@
     .header-ul{
         width: 100%;
         height: 100%;
-        display: flex;
-        flex-direction: row;
+        @include centrado();
         flex-wrap: nowrap;
         align-items: center;
         align-content: space-around;
-        justify-content: space-around;
         list-style: none;
     }
 
     .header-a{
-        color: #008000;
+        color: map-get($map: $colores, $key: colortwo);
         font-family: 'Dongle', sans-serif;
         font-size: 30px;
         text-decoration: none;
@@ -82,7 +89,7 @@
 
 
     .main-section-one{
-        background-color: #140C03;
+        background-color: map-get($map: $colores, $key: colorone);
         display: inline-block;
         text-align: center;
         width: 100%;
@@ -238,29 +245,24 @@
         align-items: stretch;
         align-content: space-around;
         justify-content: space-evenly;
-    }   
-    footer div ul h3{
-        font-family: 'Dongle', sans-serif;
-        font-size: 30px;
-        margin-bottom: 5px;
-    }
-
-    footer div ul li{
-        list-style: none;
-        line-height: 25px;
-    }
-
-    footer div ul li p{
-        color: #008000;
-        font-family: 'Dongle', sans-serif;
-        font-size: 20px;
-    }
+        h3{
+            font-family: 'Dongle', sans-serif;
+            font-size: 30px;
+            margin-bottom: 5px;
+            li{
+                list-style: none;
+                line-height: 25px;
+                p{
+                    color: #008000;
+                    font-family: 'Dongle', sans-serif;
+                    font-size: 20px;
+                }
+            }
+        }
+    } 
 
     .footer-logo{
-        margin: 0px;
-        border: none;
-        width: 225px;
-        height: 125px;
+        @extend .header-logo;
     }
 
     .pie{

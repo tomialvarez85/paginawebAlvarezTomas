@@ -313,6 +313,76 @@
     top: 1515px;
 }
 
+/* MAIN HISTORIA */
+
+.main-h{
+    width: 100%;
+}
+
+.div-one-h{
+    width: 100%;
+    height: 500px;
+    margin-top: 8px;
+}
+
+.img-one-h{
+    width: 100%;
+    height: 100%;
+}
+
+.p-one-h{
+    font-family: 'Dongle', sans-serif;
+    font-size: 60px;
+    color: #008000;
+    position: absolute;
+    top: 480px;
+    left: 520px;
+}
+
+.div-two-h{
+    width: 100%;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+}
+
+.img-two-h{
+    width: 500px;
+    height: 300px;
+}
+
+.p-two-h{
+    font-family: 'Dongle', sans-serif;
+    font-size: 35px;
+    color: #008000;
+    position: absolute;
+    top: 600px;
+    left: 520px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.div-three-h{
+    width: 100%;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+}
+
+.img-three-h{
+    width: 500px;
+    height: 300px;
+}
+
+.p-three-h{
+    font-family: 'Dongle', sans-serif;
+    font-size: 35px;
+    color: #008000;
+    position: absolute;
+    top: 918px;
+    left: 520px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 /* FOOTER */
 
 .footer{
@@ -588,6 +658,58 @@ footer div ul li p{
         left: 150px;
         top: 1390px;
     }
+
+/* MAIN HISTORIA */
+
+    .div-one-h{
+        height: 350px;
+        margin-top: 3px;
+    }
+
+    .p-one-h{
+        font-size: 30px;
+        top: 390px;
+        left: 130px;
+    }
+
+    .div-two-h{
+        height: 180px;
+        margin: 7px 0px 0px 7px;
+    }
+
+    .img-two-h{
+        width: 150px;
+        height: 100%;
+    }
+
+    .p-two-h{   
+        font-size: 15px;
+        position: absolute;
+        top: 439px;
+        left: 150px;
+        margin-left: 11px;
+        margin-right: 0px;
+    }
+
+    .div-three-h{
+        height: 180px;
+        margin: 7px 0px 13px 7px;
+    }
+
+    .img-three-h{
+        width: 150px;
+        height: 100%;
+    }
+
+    .p-three-h{
+        font-size: 15px;
+        position: absolute;
+        top: 625px;
+        left: 150px;
+        margin-left: 11px;
+        margin-right: 0px;
+    }
+
 
 /* FOOTER */
     .footer{

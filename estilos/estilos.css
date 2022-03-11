@@ -383,6 +383,79 @@
     margin-right: 15px;
 }
 
+/* MAIN SUCURSAL */
+
+.div-s{
+    width: 100%;
+    height: 400px;
+    margin: 10px 10px 10px 40px;
+}
+
+.img-s{
+    width: 45%;
+    height: 100%;
+}
+
+.p-s{
+    font-family: 'Dongle', sans-serif;
+    font-size: 27px;
+    color: #008000;
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 180px;
+    left: 725px;
+}
+
+/* MAIN CONTACTO */
+
+form{
+    width: 450px;
+    background-color: #008000;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    border-radius: 7px;
+}
+
+h2{
+    color: #140C03;
+    text-align: center;
+    margin: 0;
+    font-family: 'Dongle', sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-family: 'Dongle', sans-serif;
+    font-size: 23px;
+    border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton{
+    background-color: #140C03;
+    color: #008000;
+    padding: 20px;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
+
 /* FOOTER */
 
 .footer{
@@ -710,6 +783,60 @@ footer div ul li p{
         margin-right: 0px;
     }
 
+/* MAIN SUCURSAL */
+
+    .div-s{
+        height: 200px;
+        margin: 8px 2px 2px 15px;
+    }
+
+    .img-s{
+        width: 45%;
+        height: 100%;
+    }
+
+    .p-s{
+        font-family: 'Dongle', sans-serif;
+        font-size: 15px;
+        color: #008000;
+        display: inline-block;
+        width: 150px;
+        height: auto;
+        position: absolute;
+        top: 105px;
+        left: 215px;
+    }
+
+/* MAIN CONTACTO */
+
+form{
+    width: 100%;
+    padding: 12px 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+h2{
+    font-size: 25px;
+    margin-bottom: 4px;
+}
+
+input, textarea{
+    margin-bottom: 8px;
+    padding: 3px;
+    font-size: 17px;
+}
+
+textarea{
+    min-height: 30px;
+    max-height: 80px;
+}
+
+#boton{
+    padding: 5px;
+}
 
 /* FOOTER */
     .footer{

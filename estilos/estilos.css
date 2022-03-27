@@ -255,8 +255,8 @@
     font-size: 50px;
     color: #008000;
     position: absolute;
-    left: 515px;
-    top: 325px;
+    left: 540px;
+    top: 370px;
 }
 
 .lineas-div-two{
@@ -276,8 +276,8 @@
     font-size: 50px;
     color: #008000;
     position: absolute;
-    left: 515px;
-    top: 715px;
+    left: 540px;
+    top: 770px;
 }
 
 .lineas-div-three{
@@ -297,8 +297,8 @@
     font-size: 50px;
     color: #008000;
     position: absolute;
-    left: 515px;
-    top: 1115px;
+    left: 540px;
+    top: 1180px;
 }
 
 .lineas-div-four{
@@ -318,8 +318,8 @@
     font-size: 50px;
     color: #008000;
     position: absolute;
-    left: 515px;
-    top: 1515px;
+    left: 540px;
+    top: 1580px;
 }
 
 /* MAIN HISTORIA */
@@ -747,6 +747,7 @@ footer div ul li p{
     .div1-c{
         margin-left: 50px;
     }
+
 }
 @media screen and (max-width: 768px) {
     .header{
